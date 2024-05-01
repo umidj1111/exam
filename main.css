@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --colorLightBlue: #014E56;
+    --colorLight: white;
+    --colorDarkBlue: #012F34;
+    --colorNormBlue: #004047;
+    --colorTextLightBlue: #79C8C7;
+    --colorDark: #012F34;
+    --colorBeautiful: #F67E7E;
+    --colorDarker: #002529;
+}
+
+
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--colorLightBlue);
+    padding: 0 165px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorLight);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+.header__right {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+
+
+
+.header__right>button {
+    font-family: "Livvic";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 153px;
+    height: 48px;
+    top: 73px;
+    left: 1122px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 40px;
+    background-color: var(--colorLightBlue);
+    border: 2px solid var(--colorLight);
+    color: var(--colorLight);
+    transition: all 1s;
+}
+
+
+.header__right>button:hover {
+    background-color: var(--colorLight);
+    border: 2px solid var(--colorLightBlue);
+    color: var(--colorLightBlue);
+    transition: all 1s;
+}
+
+
+.header__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--colorLightBlue);
+    height: 517px;
+}
+
+
+.header__title>p {
+    width: 730px;
+    color: var(--colorLight);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.header__title>h1 {
+    color: var(--colorLight);
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    transform: translateY(-46px);
+}
+
+
+.website__header {
+    padding-top: 73px;
+    background-color: var(--colorLightBlue);
+}
+
+
+
+.first__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colorNormBlue);
+    height: 647px;
+    padding-top: 71px;
+}
+
+
+.first__section>p {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: var(--colorLight);
+    margin-bottom: 69.5px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+
+.cards>div {
+    width: 350px;
+    height: 274.73px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--colorDarkBlue);
+}
+
+
+.first_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.third_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first_card__img {
+    transform: translateY(50px);
+}
+
+
+
+.second_card__img {
+    transform: translateY(50px);
+}
+
+
+
+.third_card__img {
+    transform: translateY(50px);
+}
+
+
+.second_section {
+    background-color: var(--colorDarkBlue);
+    padding: 113.94px 165px;
+}
+
+
+.card__first_text {
+    color: var(--colorTextLightBlue);
+    margin-top: 23.29px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+.card__second_text {
+    color: var(--colorLight);
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.second_section>p {
+    font-family: "Livvic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: var(--colorLight);
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59.09px;
+    align-items: center;
+}
+
+.Verge_img {
+    width: 165px;
+    height: 22.79px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.jarakata_img {
+    width: 184px;
+    height: 18.72px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.guardian_img {
+    width: 180px;
+    height: 22.79px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.techradar_img {
+    width: 165px;
+    height: 22.79px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.Gadgets_img {
+    width: 98px;
+    height: 36.62px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.third_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: var(--colorBeautiful);
+    padding-left: 263px;
+    padding-right: 260px;
+}
+
+
+.third_section>p {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--colorDark);
+}
+
+
+.third_section>button {
+    width: 153px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--colorDark);
+    border: 2px solid var(--colorDark);
+    background-color: var(--colorBeautiful);
+    border-radius: 40px;
+    transition: all 1s;
+}
+
+
+
+.third_section>button:hover {
+    color: var(--colorBeautiful);
+    border: 2px solid var(--colorBeautiful);
+    background-color: var(--colorDark);
+}
+
+
+.website__footer {
+    display: flex;
+    justify-content: space-between;
+    height: 112px;
+    background-color: var(--colorDarker);
+    align-items: center;
+    padding-left: 159px;
+    padding-right: 171px;
+}
+
+
+.burger_logo {
+    display: none;
+}
+
+
+
+@media (max-width:768px) {
+    .header__navbar {
+        padding-top: 64px;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-bottom: 112px;
+    }
+
+    .header__title {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .header__title>p {
+        width: 457px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards>div {
+        width: 281px;
+        height: 253px;
+    }
+
+
+    .cards>div>.first_card__img {
+        transform: translateY(40px);
+    }
+
+
+    .cards>div>.second_card__img {
+        transform: translateY(40px);
+    }
+
+
+    .cards>div>.third_card__img {
+        transform: translateY(40px);
+    }
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        transform: translateY(-39px);
+    }
+
+
+    .first__section {
+        height: 919px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+
+    .Verge_img {
+        width: 103px;
+        height: 17px;
+        top: 1095px;
+        left: 39px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .jarakata_img {
+        width: 114px;
+        height: 14px;
+        top: 1095px;
+        left: 191px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .guardian_img {
+        width: 114px;
+        height: 14px;
+        top: 1095px;
+        left: 191px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .techradar_img {
+        width: 103px;
+        height: 17px;
+        top: 1095px;
+        left: 515px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .Gadgets_img {
+        width: 61px;
+        height: 28px;
+        top: 1091px;
+        left: 667px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .images {
+        gap: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .third_section {
+        display: flex;
+        align-items: center;
+        padding: 76px 97px;
+    }
+
+
+    .third_section>p {
+        width: 1036px;
+        height: 32px;
+        top: 84px;
+        left: 97px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .third_section>button {
+        width: 253px;
+        height: 48px;
+        top: 76px;
+        left: 517px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .website__footer {
+        display: flex;
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+}
+
+
+
+@media (max-width:430px) {
+    .header__navbar {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 48px;
+        padding-bottom: 80px;
+    }
+
+
+    .header__right {
+        display: none;
+    }
+
+
+    .burger_logo {
+        display: block;
+    }
+
+    .header__title>h1 {
+        width: 327px;
+        height: 40px;
+        gap: 0px;
+        opacity: 0px;
+        text-align: center;
+    }
+
+
+    .header__title>p {
+        width: 327px;
+        height: 196px;
+        top: 56px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+
+    .cards>div{
+        width: 327px;
+    }
+
+
+    .first__section{
+        height: 1171.32px;
+        row-gap: 24px;
+    }
+
+
+    .second_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .second_section>.images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_section>p{
+        width: 327px;
+    }
+
+
+    .third_section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 124px;
+        height: 302px;
+    }
+
+
+    .third_section>p{
+        width: 327px;
+        text-align: center;
+    }
+
+    .website__footer{
+        display: flex;
+        flex-direction: column;
+        height: 216px;
+        justify-content: center;
+        gap: 24px;
+    }
+}
